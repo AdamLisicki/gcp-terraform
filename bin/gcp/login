@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+
+gcloud auth login
+gcloud config set project $GCP_PROJECT_ID
